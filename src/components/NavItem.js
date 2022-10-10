@@ -1,6 +1,6 @@
 import React from "react";
 import * as Muicon from "@mui/icons-material";
-import "../styles/_navitem.scss";
+import "../styles/navitem.scss";
 import variables from "../utilities/_variables.scss";
 
 function NavItem({ name, icon, active, index, setCurrentView }) {

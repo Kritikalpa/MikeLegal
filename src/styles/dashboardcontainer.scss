@@ -1,0 +1,72 @@
+@use "../utilities/variables" as v;
+
+.dashboard-container {
+  background-color: v.$bg-grey;
+  min-height: calc(100vh - 120px);
+  padding: 2vw;
+  .dashboard-title {
+    color: v.$text-secondary;
+    font-weight: 600;
+  }
+  .top-row {
+    display: flex;
+    gap: 1vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    .banner-container {
+      > div {
+        &:nth-child(2) {
+          display: flex;
+          color: v.$text-secondary;
+          font-weight: 600;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 10px;
+          > div {
+            &:first-child {
+              font-size: 1.8rem;
+            }
+          }
+        }
+      }
+    }
+    .graph-head {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      .line-legend {
+        display: flex;
+        gap: 1vw;
+        > div {
+          display: flex;
+          gap: 0.5vw;
+          align-items: center;
+          > div {
+            &:first-child {
+              height: 15px;
+              width: 15px;
+              border-radius: 50%;
+            }
+            &:nth-child(2) {
+              font-size: 14px;
+              color: v.$text-secondary;
+            }
+          }
+          &:first-child > div:first-child {
+            background-color: v.$blue;
+          }
+          &:nth-child(2) > div:first-child {
+            background-color: v.$pink;
+          }
+        }
+      }
+    }
+  }
+  .dashboard-btn {
+    font-size: 0.8rem;
+    border: 1px solid v.$text-secondary;
+    border-radius: 6px;
+    padding: 5px 10px;
+    color: v.$text-secondary;
+  }
+}

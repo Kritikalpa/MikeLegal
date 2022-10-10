@@ -1,0 +1,52 @@
+@use "../utilities/variables" as v;
+
+.banner {
+  display: flex;
+  background-color: v.$blue;
+  padding: 0 1.5vw;
+  gap: 15px;
+  align-items: center;
+  border-radius: 6px;
+  height: calc(100% - 70px);
+  min-height: 180px;
+  .banner-text {
+    color: v.$text-white;
+    width: 400px;
+    > div {
+      &:first-child {
+        font-weight: 700;
+        font-size: 1.6rem;
+      }
+      &:nth-child(2) {
+        font-size: 0.9rem;
+        margin-top: 10px;
+      }
+    }
+  }
+  .banner-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: v.$navy;
+    border-radius: 6px;
+    padding: 1vw 2vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    > div {
+      color: v.$text-white;
+      font-size: 14px;
+      &:first-child {
+        color: v.$text-yellow;
+        font-size: 1.8rem;
+        font-weight: 700;
+      }
+      &:nth-child(2) {
+        color: v.$text-yellow;
+      }
+      &:nth-child(3) {
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-size: 13px;
+      }
+    }
+  }
+}

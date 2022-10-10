@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import NavItem from "../components/NavItem";
-import "../styles/_navigationcontainer.scss";
+import "../styles/navigationcontainer.scss";
+import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 
 function NavigationContainer() {
   const [currentView, setCurrentView] = useState(0);

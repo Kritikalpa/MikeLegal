@@ -1,4 +1,4 @@
-import "../styles/_appbar.scss";
+import "../styles/appbar.scss";
 import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";

@@ -1,0 +1,14 @@
+@use "../utilities/variables" as v;
+
+.graph-card {
+  background-color: v.$bg-white;
+  padding: 15px 2vw;
+  margin-top: 10px;
+  min-width: 350px;
+  border-radius: 6px;
+  .card-head {
+    font-size: 14px;
+    color: v.$text-secondary;
+    font-weight: 500;
+  }
+}
