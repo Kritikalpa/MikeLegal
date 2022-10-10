@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../styles/navigationcontainer.scss";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import NavigationList from "../components/NavigationList";

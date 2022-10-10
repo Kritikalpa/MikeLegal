@@ -14,6 +14,7 @@ function NavigationList() {
     if (idx !== -1) {
       setCurrentView(idx);
     }
+    // eslint-disable-next-line
   }, []);
 
   const navRoutes = [
