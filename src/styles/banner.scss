@@ -3,7 +3,7 @@
 .banner {
   display: flex;
   background-color: v.$blue;
-  padding: 0 1.5vw;
+  padding: 0 max(1.5vw, 15px);
   gap: 15px;
   align-items: center;
   border-radius: 6px;
@@ -11,7 +11,7 @@
   min-height: 180px;
   .banner-text {
     color: v.$text-white;
-    width: 400px;
+    max-width: 400px;
     > div {
       &:first-child {
         font-weight: 700;
@@ -29,7 +29,7 @@
     align-items: center;
     background-color: v.$navy;
     border-radius: 6px;
-    padding: 1vw 2vw;
+    padding: max(1vw, 12px) max(2vw, 24px);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     > div {
       color: v.$text-white;

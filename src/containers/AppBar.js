@@ -6,11 +6,11 @@ import Badge from "@mui/material/Badge";
 import variables from "../utilities/_variables.scss";
 import { Avatar } from "@mui/material";
 
-function AppBar() {
+function AppBar({setToggle}) {
   return (
     <div className="app-bar">
       <div>
-        <div className="app-drawer">
+        <div className="app-drawer" onClick={() => {setToggle(true)}}>
           <MenuIcon
             sx={{
               color: variables.boldText,
