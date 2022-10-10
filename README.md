@@ -42,4 +42,4 @@ Fork/Clone the repo to you machine
 
 or,
 
-Visit: https://63448123e35c196178f1ccc8--bucolic-peony-ffcd5a.netlify.app/dashboard
+Visit: https://master--bucolic-peony-ffcd5a.netlify.app/
