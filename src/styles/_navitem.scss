@@ -1,0 +1,25 @@
+@use "../utilities/variables" as v;
+
+.nav-item {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  .nav-name {
+    color: v.$text-secondary;
+    font-weight: 600;
+    &.nav-active {
+      color: v.$text-primary;
+      position: relative;
+      &::after {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: v.$text-primary;
+        position: absolute;
+        left: 6px;
+        bottom: -5px;
+      }
+    }
+  }
+}

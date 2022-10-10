@@ -1,0 +1,28 @@
+// text color
+$text-primary: #4c95f5;
+$text-secondary: #7e7e7e;
+$text-bold: #555555;
+$text-yellow: #FBE601;
+
+// bg color
+$bg-white: #ffffff;
+$bg-grey: #d8d8d8;
+
+// general
+$blue: #1875f0;
+$navy: #00459f;
+$sky: #cadffb;
+$pink: #fe3678;
+
+:export {
+  blue: $blue;
+  navy: $navy;
+  sky: $sky;
+  pink: $pink;
+  primaryText: $text-primary;
+  secondaryText: $text-secondary;
+  boldText: $text-bold;
+  yellowText: $text-yellow;
+  primaryBG: $bg-white;
+  secondaryBG: $bg-grey;
+}
